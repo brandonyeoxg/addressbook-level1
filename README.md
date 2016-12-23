@@ -105,13 +105,14 @@ Address book data are saved in a file called `addressbook.txt` in the project ro
 You can change the location by specifying the file path as a program argument.
 
 Example:
+
 * `java seedu.addressbook.AddressBook mydata.txt`
 * `java seedu.addressbook.AddressBook myFolder/mydata.txt`
 
 > The file path must contain a valid file name and a valid parent directory.<br>
   File name is valid if it has an extension and no reserved characters (OS-dependent).<br>
   Parent directory is valid if it exists.<br>
-  If a file already exists, it must be a regular file.<br>
+  Note for non-Windows users: only 'regular' files are acceptable.<br>
 
 > When running the program inside Eclipse, there is a way to set command line parameters
   before running the program.
